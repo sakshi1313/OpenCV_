@@ -302,7 +302,7 @@ for i in range(len(img2)):
         file.write(str(res[6+j])+" ")
     file.close()
 
-    cv2.namedWindow("detect", cv2.WINDOW_NORMAL)
+    #cv2.namedWindow("detect", cv2.WINDOW_NORMAL)
     #cv2.imshow("detect", img)
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
     cv2.destroyAllWindows()
